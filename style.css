@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/*section-1*/
+
+.section-1{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #25316D;
+    /*height: 500px;*/
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.logo{
+    margin: 0;
+    padding: 18px 60px;
+    font-size: 3rem;
+    color:white;
+}
+
+ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 18px 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.top{
+    
+    padding: 80px 0;
+    
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.top p{
+    word-wrap: break-word;
+    max-width: 400px;
+}
+
+.top img{
+    width:450px;
+    height: auto;
+    border-radius: 4px;
+}
+
+button{
+    padding: 10px 14px;
+    background-color: #25316D;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.para-button h1{
+    font-size: 2.8rem;
+}
+
+/*section-2*/
+.section-2{
+    background-color: #DFF6FF;
+    padding: 50px ;
+}
+
+.section-2 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.section-2 .cards-2{
+    margin: 75px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.section-2 img{
+    width:250px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card .text{
+    word-wrap: break-word;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+/*section-3*/
+
+.section-3{
+    padding: 60px 0;
+    background-color: #AEBDCA;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-3 .content{
+    word-wrap: break-word;
+    width:50%;
+    font-size: 1.5rem;
+}
+
+.section-3 .author{
+    font-size: 1.5rem;
+    align-self:center;
+    margin:40px 0 40px 650px;
+}
+
+/*section-4*/
+
+.section-4{
+    background-color:#DFF6FF ;
+    height: 200px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cta{
+    
+    width: 60%;
+    background-color: #8758FF;
+    color: white;
+    font-size: 1.5rem;
+    padding: 35px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta button{
+    background-color: #8758FF;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/*Footer*/
+
+.footer{
+    height: 90px;
+    background-color: #25316D;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
